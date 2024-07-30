@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="propertyContainer">
+        <h1 id="tagline">Finding the Best Hostels & PGs for Yourself</h1>
+        <div class="propertySelector">
+            <h2 id="propertyinfo">Property Type</h2>
+
+            <div class="propertyColumn">
+                <input type="checkbox" class="filter" id="Hostels" name="property" value="Hostel">
+                <label for="Hostel">Hostel</label>
+            </div>
+
+            <div class="propertyColumn">
+                <input type="checkbox" class="filter" id="PGs" name="property" value="PGs">
+                <label for="PG">PG</label>
+            </div>
+               
+            <h2 id="Genderinfo">Gender</h2>
+
+            <div class="propertyColumn">
+                <input type="checkbox" class="filter" name="gender" value="Boys">
+                <label for="Boys">Boys</label>
+            </div>
+
+            <div class="propertyColumn">
+                <input type="checkbox" class="filter" name="gender" value="Girls">
+                <label for="Girls">Girls</label>
+            </div>
+
+                <button id="reset" onclick="resetData()">Reset</button>
+                <button id="apply" onclick="applyData()">Apply</button>
+
+        </div>
+
+        <div class="listedHostels">
+
+            <h1 id="boys">Boys Hostels</h1>
+          <div class="boysHostels">
+
+              <div id="Hostel1">
+              <img src="Images/Hostel6.jpg" alt="" id="images">
+
+              <div id="hostelData">
+              <p id="name">Name:-Random Hostels</p>
+              <p id="price">Price:- 0000000</p>
+              <p id="seaters">Seaters:- All</p>
+              <p id="type">Type:- None</p>
+              </div>
+
+              </div>
+
+              <div id="Hostel2">
+
+                
+              <img src="Images/Hostel7.jpg" alt="" id="images">
+              <div id="hostelData">
+              <p id="name1">Name:-Random Hostels</p>
+              <p id="price1">Price:- 0000000</p>
+              <p id="seaters1">Seaters:- All</p>
+              <p id="type1">Type:- None</p>
+              </div>
+
+              </div>
+
+          </div>
+
+          <div class="boysHostels">
+
+            <div id="Hostel3">
+            <img src="Images/Hostel4.jpg" alt="" id="images">
+            <div id="hostelData">
+            <p id="name2">Name:-Random Hostels</p>
+            <p id="price2">Price:- 0000000</p>
+            <p id="seaters2">Seaters:- All</p>
+            <p id="type2">Type:- None</p>
+            </div>
+            </div>
+
+            <div id="Hostel4">
+            <img src="Images/Hostel9.jpg" alt="" id="images">
+
+            <div id="hostelData">
+            <p id="name3">Name:-Random Hostels</p>
+            <p id="price3">Price:- 0000000</p>
+            <p id="seaters3">Seaters:- All</p>
+            <p id="type3">Type:- None</p>
+            </div>
+
+            </div>
+
+        </div>
+
+        <h1 id="girls">Girls Hostel</h1>
+        <div class="girlsHostel">
+
+            <div id="Hostel1">
+            <img src="Images/Hostel1.jpg" alt="" id="images">
+            <div id="hostelData">
+            <p id="name4">Name:-Random Hostels</p>
+            <p id="price4">Price:- 0000000</p>
+            <p id="seaters4">Seaters:- All</p>
+            <p id="type4">Type:- None</p>
+            </div>
+            </div>
+
+            <div id="Hostel2">
+            <img src="Images/Hostel2.jpg" alt="" id="images">
+            <div id="hostelData">
+            <p id="name5">Name:-Random Hostels</p>
+            <p id="price5">Price:- 0000000</p>
+            <p id="seaters5">Seaters:- All</p>
+            <p id="type5">Type:- None</p>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="girlsHostel">
+            <div id="Hostel3">
+            <img src="Images/Hostel3.jpg" alt="" id="images">
+            <div id="hostelData">
+            <p id="name6">Name:-Random Hostels</p>
+            <p id="price6">Price:- 0000000</p>
+            <p id="seaters6">Seaters:- All</p>
+            <p id="type6">Type:- None</p>
+            </div>
+            </div>
+
+            <div id="Hostel4">
+            <img src="Images/Hostel5.jpg" alt="" id="images">
+            <div id="hostelData">
+            <p id="name7">Name:-Random Hostels</p>
+            <p id="price7">Price:- 0000000</p>
+            <p id="seaters7">Seaters:- All</p>
+            <p id="type7">Type:- None</p>
+            </div>
+            </div>
+        </div>
+
+
+        </div>
+
+    </div>
+    <script src="src.js"></script>
+</body>
+</html>

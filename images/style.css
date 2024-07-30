@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'REM', sans-serif;
+}
+
+#tagline {
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.propertySelector {
+    text-align: center;
+    border: 2px solid grey;
+    margin: 0rem 20%;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    box-shadow: 3px 3px grey;
+}
+
+
+
+.propertySelector .propertyColumn{
+    margin: 2% 0%;
+}
+
+#reset{
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-family: 'REM';
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0rem 2rem;
+    cursor: pointer;
+}
+
+#apply {
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-family: 'REM';
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0rem 2rem;
+    cursor: pointer;
+}
+
+.listedHostels{
+    
+}
+
+.listedHostels #boys{
+   text-align: center;
+   margin: 3rem 0rem;
+   text-decoration: underline;
+}
+
+.boysHostels{
+   display: flex;
+   align-items: center;
+}
+
+ #images {
+   width: 70%;
+}
+
+#Hostel1 {
+    margin-left: 15%;
+}
+
+#hostelData {
+    margin: 3% 3%;
+    font-weight: bold;
+}
+
+#Hostel2 {
+    margin-right: 2%;
+}
+
+#Hostel3{
+    margin-left: 15%;
+} 
+
+#Hostel4 {
+    margin-right: 2%;
+}
+
+#girls {
+    text-align: center;
+    margin: 3rem 0rem;
+    text-decoration: underline;
+}
+
+.girlsHostel{
+    display: flex;
+    align-items: center;
+}
+
+
+
